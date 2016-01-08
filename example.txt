@@ -1,0 +1,11 @@
+Section 1—How to Activate Mod_Rewrites
+
+sudo a2enmod rewrite
+
+ <Directory /var/www/>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Order allow,deny
+    allow from all
+ </Directory>
+
